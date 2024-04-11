@@ -53,6 +53,7 @@ Na segunda parte mostra a geração de dados dos produtos e vendas, seguida pela
   - Análise de vendas por produto e categoria.
   - Análise de tendências temporais das vendas.
   - Análise de desempenho dos produtos.
+  - Grafico sobre as analises acimas.
 ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/c0abc64f-1f03-4115-887b-f6dd81a35a6e)
 
 

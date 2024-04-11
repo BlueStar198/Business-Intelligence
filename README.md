@@ -1,8 +1,45 @@
-**Análise do Data Warehouse e Data Lake**
+**Introdução ao Projeto**
 
-Este projeto aborda a geração de dados sintéticos para produtos e vendas, seguida pela criação de um data warehouse e um data lake para armazenamento e análise desses dados.
+Este projeto apresenta uma série de códigos que demonstram diferentes processo de análise de dados, desde a extração até a visualização e armazenamento dos resultados. Dividido em duas partes, o projeto aborda a criação do processo ETL (Extract, Transform, Load) e Data Warehouse.
 
+**ETL (Extract, Transform, Load):**
+Na primeira parte, são apresentados códigos que demonstram o processo de extração, transformação e carregamento de dados de vendas de duas filiais distintas. A extração é realizada a partir de arquivos CSV e Excel, seguida pela aplicação de transformações nos dados, como o cálculo do valor total das vendas. Os dados transformados são então carregados em um banco de dados SQLite, onde são disponibilizados para análise por meio de consultas SQL.
+
+**ETL (Extract, Transform, Load)**
+
+Este código demonstra um processo ETL básico, envolvendo a extração de dados de vendas de duas filiais diferentes, a realização de transformações nos dados e o carregamento desses dados em diferentes destinos.
+
+**Extração:**
+- Os dados de vendas da filial 1 são extraídos de um arquivo CSV.
+- Os dados de vendas da filial 2 são extraídos de um arquivo Excel.
+
+**Transformação:**
+- As transformações incluem o cálculo do valor total de vendas para cada filial, multiplicando a quantidade vendida pelo preço unitário.
+- Os dados transformados são visualizados e depois salvos em arquivos CSV.
+
+**Load (Carregamento):**
+- Os dados transformados são carregados em um banco de dados SQLite, tanto diretamente dos DataFrames quanto por meio de consultas SQL.
+
+**Resultados:**
+- Dados extraidos dos dados de vendas filial1 e filial2:
+  ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/414e728c-04b1-4ca2-946a-48eec9a68380)
+
+- Transformacao dos dados para calcular o valor total de vendas para cada filial:
+  ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/62e40bb8-6e0e-4efe-941d-caecde54f5a0)
+
+- Dados transformados para um arquivo CSV
+  ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/6bc53eba-db7f-412d-a7c3-d1966c088428)
+
+- Dados transformados para as tabelas SQL
+  ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/57d60a18-854a-4694-9565-9b048c409b84)
+
+- Resultado dos dados transformados na tabela SQL
+  ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/0d9dbfc2-93e7-449d-befd-fabc6890298f)
+  
 **Data Warehouse:**
+Na segunda parte mostra a geração de dados sintéticos para produtos e vendas, seguida pela integração desses dados em um Data Warehouse. São realizadas análises detalhadas sobre as vendas de produtos, incluindo tendências temporais, desempenho por produto e categoria, além de visualizações gráficas para facilitar a compreensão dos dados.
+
+**Resultados:**
 - Os dados são gerados para 600 produtos e 1000 vendas, com informações como ID, nome, categoria, data da venda, quantidade vendida e valor total.
 - Um data warehouse é criado combinando os dados de produtos e vendas com base no ID do produto.
 - As análises realizadas incluem:

@@ -22,18 +22,23 @@ Este código demonstra um processo ETL básico, envolvendo a extração de dados
 
 **Resultados:**
 - Dados extraidos dos dados de vendas filial1 e filial2:
+
   ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/414e728c-04b1-4ca2-946a-48eec9a68380)
 
 - Transformacao dos dados para calcular o valor total de vendas para cada filial:
+
   ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/62e40bb8-6e0e-4efe-941d-caecde54f5a0)
 
-- Dados transformados para um arquivo CSV
+- Dados transformados para um arquivo CSV:
+
   ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/6bc53eba-db7f-412d-a7c3-d1966c088428)
 
-- Dados transformados para as tabelas SQL
+- Dados transformados para as tabelas SQL:
+
   ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/57d60a18-854a-4694-9565-9b048c409b84)
 
-- Resultado dos dados transformados na tabela SQL
+- Resultado dos dados transformados na tabela SQL:
+
   ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/0d9dbfc2-93e7-449d-befd-fabc6890298f)
   
 **Data Warehouse:**

@@ -57,11 +57,17 @@ Na segunda parte mostra a geração de dados dos produtos e vendas, seguida pela
 
 
 **Data Lake:**
+Este código da Data Lake gera 10 arquivos CSV dentro dele, cada um contendo dados aleatórios com três colunas. Os dados incluem números inteiros, números reais e valores de categoria. Após a geração dos dados, ele confirma o sucesso e mostra 10 registros de cada arquivo CSV.
+
+**Resultados:**
 - São gerados dados sintéticos para simular um ambiente de data lake, com 10 arquivos CSV contendo 1000 linhas cada.
 - Cada arquivo possui colunas com valores aleatórios.
+![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/df0d0dac-491f-4c6a-8e9b-fbf9cc861997)
+
 - Os dados do data lake são então lidos em um banco de dados SQLite e análises são realizadas usando Pandas, Matplotlib e Seaborn.
 - As análises incluem:
   - Visualização de gráficos de dispersão e histogramas.
   - Boxplot para análise da distribuição dos dados.
+  /// POR CAUSA DE ERRO NO CODIGO ESTA SEM IMAGEM DO RESULTADO//////
 
 Para acessar o código completo e os resultados, visite o Google Colab: https://colab.research.google.com/drive/1ybiOMDzN8CNIUw1rFUoXhtXxc-vnXMey?usp=sharing

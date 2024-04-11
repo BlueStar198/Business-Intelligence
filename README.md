@@ -5,9 +5,7 @@ Este projeto apresenta uma série de códigos que demonstram diferentes processo
 **ETL (Extract, Transform, Load):**
 Na primeira parte, são apresentados códigos que demonstram o processo de extração, transformação e carregamento de dados de vendas de duas filiais distintas. A extração é realizada a partir de arquivos CSV e Excel, seguida pela aplicação de transformações nos dados, como o cálculo do valor total das vendas. Os dados transformados são então carregados em um banco de dados SQLite, onde são disponibilizados para análise por meio de consultas SQL.
 
-**ETL (Extract, Transform, Load)**
-
-Este código demonstra um processo ETL básico, envolvendo a extração de dados de vendas de duas filiais diferentes, a realização de transformações nos dados e o carregamento desses dados em diferentes destinos.
+Este código demonstra um processo ETL básico, envolvendo a extração de dados de vendas de filial1 e filial2, a realização de transformações nos dados e o carregamento desses dados em diferentes destinos.
 
 **Extração:**
 - Os dados de vendas da filial 1 são extraídos de um arquivo CSV.
@@ -37,16 +35,20 @@ Este código demonstra um processo ETL básico, envolvendo a extração de dados
 
   ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/57d60a18-854a-4694-9565-9b048c409b84)
 
-- Resultado dos dados transformados na tabela SQL:
+- Carregamento dos dados transformados na tabela SQL:
 
   ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/0d9dbfc2-93e7-449d-befd-fabc6890298f)
+
+
   
 **Data Warehouse:**
-Na segunda parte mostra a geração de dados sintéticos para produtos e vendas, seguida pela integração desses dados em um Data Warehouse. São realizadas análises detalhadas sobre as vendas de produtos, incluindo tendências temporais, desempenho por produto e categoria, além de visualizações gráficas para facilitar a compreensão dos dados.
+Na segunda parte mostra a geração de dados dos produtos e vendas, seguida pela integração desses dados em um Data Warehouse. São realizadas análises detalhadas sobre as vendas de produtos, incluindo tendências temporais, desempenho por produto e categoria, além de visualizações gráficas para facilitar a compreensão dos dados.
 
 **Resultados:**
-- Os dados são gerados para 600 produtos e 1000 vendas, com informações como ID, nome, categoria, data da venda, quantidade vendida e valor total.
-- Um data warehouse é criado combinando os dados de produtos e vendas com base no ID do produto.
+- No codigo são gerados os dados de 600 produtos e 1000 vendas, com informações como ID, nome, categoria, data da venda, quantidade vendida e valor total.
+- Um data warehouse é criado combinando os dados de produtos e vendas com base no ID do produto:
+  ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/c7e8f539-f824-47ff-bc2e-70cd538b727d)
+
 - As análises realizadas incluem:
   - Análise de vendas por produto e categoria.
   - Análise de tendências temporais das vendas.

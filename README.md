@@ -49,10 +49,12 @@ Na segunda parte mostra a geração de dados dos produtos e vendas, seguida pela
 - Um data warehouse é criado combinando os dados de produtos e vendas com base no ID do produto:
   ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/c7e8f539-f824-47ff-bc2e-70cd538b727d)
 
-- As análises realizadas incluem:
+- No codigo gera as análises realizadas que incluem:
   - Análise de vendas por produto e categoria.
   - Análise de tendências temporais das vendas.
   - Análise de desempenho dos produtos.
+![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/c0abc64f-1f03-4115-887b-f6dd81a35a6e)
+
 
 **Data Lake:**
 - São gerados dados sintéticos para simular um ambiente de data lake, com 10 arquivos CSV contendo 1000 linhas cada.

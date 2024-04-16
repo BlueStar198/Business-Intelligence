@@ -63,6 +63,7 @@ Este código da Data Lake gera 10 arquivos CSV dentro dele, cada um contendo dad
 **Resultados:**
 - São gerados dados sintéticos para simular um ambiente de data lake, com 10 arquivos CSV contendo 1000 linhas cada.
 - Cada arquivo possui colunas com valores aleatórios.
+
 ![image](https://github.com/BlueStar198/Business-Intelligence/assets/41968462/df0d0dac-491f-4c6a-8e9b-fbf9cc861997)
 
 - Os dados do data lake são então lidos em um banco de dados SQLite e análises são realizadas usando Pandas, Matplotlib e Seaborn.
